@@ -79,14 +79,15 @@ h1 {
 }
 
 .hero-principal {
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .img_ppal{
   width: 320px;
   height: 320px;
   border-radius: 50%;
-  margin: 20px;
+  margin-bottom: 2rem;
+  
 }
 
 .hero-principal h2 {
