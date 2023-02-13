@@ -1,5 +1,0 @@
-;/*FB_PKG_DELIM*/
-
-__d("CometComposerFooterButtonType",["$InternalEnum"],(function(a,b,c,d,e,f){"use strict";a=b("$InternalEnum").Mirrored(["SCHEDULE"]);c=a;f["default"]=c}),66);
-__d("CometReshareDialogTargetSection.react",["CometUnit.react","CometUnitHeader.react","TetraList.react","react"],(function(a,b,c,d,e,f,g){"use strict";var h=d("react");function a(a){var b=a.children,d=a.sectionTitle,e=a.subtitle;a=a.testid;a=a===void 0?"":a;return h.jsx(c("CometUnit.react"),{header:h.jsx(c("CometUnitHeader.react"),{body:e,headline:d,level:3}),testid:void 0,children:h.jsx(c("TetraList.react"),{children:b})})}a.displayName=a.name+" [from "+f.id+"]";g["default"]=a}),98);
-__d("CometResharesConstants",[],(function(a,b,c,d,e,f){"use strict";a=3e3;f.UNDO_DELAY_MS=a}),66);
