@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta name="author" content="Emilio Almeida">
   <meta name="description" content="Portfolio de Desarrollo Web, con Bootstrap">
-  <meta name="keywords" content="HTML, CSS, JAVASCRIPT, BOOTSTRAP, REACT">
+  <meta name="keywords" content="HTML, CSS, JAVASCRIPT, BOOTSTRAP, DESARROLLADOR, WEB">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--Favicon-->
-  <link rel="shortcut icon" href="./images/Logo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./images/Logo3.jpg" type="image/x-icon">
   <!--Bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -35,11 +35,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbar-toggler">
         <a class="navbar-brand" href="#">
-          <img src="./images/Logo.png" width="50" alt="Logo de la web" class="milogo">
+          <img src="./images/Logo3.jpg" width="100" alt="Logo de la web" class="milogo">
         </a>
         <ul class="navbar-nav d-flex justify-content-center align-content-center">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/sobre_mi.html">Sobre mí</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#proyectos">Proyectos</a>
@@ -75,30 +75,7 @@
     </div>
   </section>
 
-  <!-- Sobre mí-->
-  <section id="sobre-mi" class="sobre-mi seccion-oscura">
-    <div class="contenedor">
-      <img src="./images/fotoEmilio2.jpg" width="170px" alt="FotoEmilio2" class="fotoEmilio-2">
-      <h2 class="seccion-titulo">Te cuento algo sobre mí?</h2>
-
-      <p class="seccion-texto">
-        De niño.......
-        luego
-        hice
-        me gusta
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, tempore cum, laudantium odit ipsa culpa doloribus
-        ducimus dicta enim architecto voluptas reiciendis harum quae! Aliquam dolorum minima voluptas quia dignissimos.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore mollitia aperiam deleniti, eius nobis amet
-        necessitatibus hic obcaecati consequuntur at perspiciatis pariatur porro doloribus asperiores quod, sequi iste
-        iure quis!
-        Porro, quidem, laboriosam ut, fugit magnam distinctio minus adipisci laborum nemo fuga natus modi. Perferendis
-        exercitationem ipsum aut ullam aliquid, iusto earum numquam pariatur, unde in placeat necessitatibus quos
-        libero.
-
-      </p>
-    </div>
-  </section>
-
+  
   <!-- Experiencia-->
   <section class="experiencia seccion-clara">
 
@@ -107,10 +84,13 @@
       <div class="row">
         <!--Desarrolo Web-->
         <div class="columna col-12 col-md-4">
-          <i class="bi bi-laptop"></i>
+          <i class="bi bi-laptop laptop"></i>
           <p class="experiencia-titulo">Desarrollo web</p>
-          <p>Mis primeros pasos en el Desarrollo Web fueron en el año 2020.Mi primer certificado, de Desarrollado Web
-            Full Stack, es de Acámica y Digital-House. Manejo las siguientes tecnologías:</p>
+          <p>En el año 2020 comencé a programar y a desarrollar sitios web. 
+            Mi primera certificación como Desarrollador Web Full Stack, un año después;
+            es de Acámica y Digital-House; con el respaldo de Globant,
+            Mercado Libre, GlobalLogic y Wolox. <br>
+            Manejo las siguientes tecnologías:</p>
           <div class="badges-contenedor">
             <span class="badge text-bg-primary">HTML</span>
             <span class="badge text-bg-primary">CSS</span>
@@ -141,8 +121,8 @@
             En estos momentos, estoy enfocado en estas tecnologías:
           </p>
           <div class="badges-contenedor">
-            <span class="badge text-bg-primary">Python</span>
             <span class="badge text-bg-primary">React</span>
+            <span class="badge text-bg-primary">Python</span>            
             <span class="badge text-bg-primary">Salesforce</span>
 
           </div>
@@ -156,18 +136,18 @@
         <div class="container text-center proyectos-contenedor">
           <div class="row">
             <!-- Proyecto 1-->
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4 exp">
               <div class="proyecto">
-                <img src="./images/podcast" alt="Podcast BD">
+                <img class="pod" src="./images/podcast" alt="Podcast BD">
                 <div class="overlay">
                   <p>Podcast_BD</p>
                   <div class="iconos-contenedor">
-                    <a href="https://github.com/EmilioAlmeida/Podcast_BD" target="_blank" rel="noopener noreferrer">
-                      <i class="bi bi-github"></i>
-                    </a>
                     <a href="https://emilioalmeida.github.io/Podcast_BD/" target="_blank" rel="noopener noreferrer">
-                      <i class="bi bi-laptop"></i>
+                      <i class="bi bi-laptop ancla"></i>
                     </a>
+                    <a href="https://github.com/EmilioAlmeida/Podcast_BD" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github ancla"></i>
+                    </a>                    
                   </div>
                 </div>
               </div>
@@ -176,16 +156,16 @@
             <!-- Proyecto 2-->
             <div class="col-12 col-md-6 col-lg-4">
               <div class="proyecto">
-                <img src="./images/podcast" alt="Podcast BD">
+                <img src="./images/ilustra_header.svg" alt="Gifos">
                 <div class="overlay">
-                  <p>Podcast_BD</p>
+                  <p>Gifos</p>
                   <div class="iconos-contenedor">
-                    <a href="https://github.com/EmilioAlmeida/Podcast_BD" target="_blank" rel="noopener noreferrer">
-                      <i class="bi bi-github"></i>
+                    <a href="https://emilioalmeida.github.io/ProyectoSegundoSprint_Gifos/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop ancla"></i>
                     </a>
-                    <a href="https://emilioalmeida.github.io/Podcast_BD/" target="_blank" rel="noopener noreferrer">
-                      <i class="bi bi-laptop"></i>
-                    </a>
+                    <a href="https://github.com/EmilioAlmeida/ProyectoSegundoSprint_Gifos" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github ancla"></i>
+                    </a>                    
                   </div>
                 </div>
               </div>
@@ -194,70 +174,16 @@
             <!-- Proyecto 3-->
             <div class="col-12 col-md-6 col-lg-4">
               <div class="proyecto">
-                <img src="./images/podcast" alt="Podcast BD">
+                <img class="jun" src="./images/Logo La Juntada.jpg" alt="La_Juntada">
                 <div class="overlay">
-                  <p>Podcast_BD</p>
+                  <p>La Juntada</p>
                   <div class="iconos-contenedor">
-                    <a href="https://github.com/EmilioAlmeida/Podcast_BD" target="_blank" rel="noopener noreferrer">
-                      <i class="bi bi-github"></i>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop ancla"></i>
                     </a>
-                    <a href="https://emilioalmeida.github.io/Podcast_BD/" target="_blank" rel="noopener noreferrer">
-                      <i class="bi bi-laptop"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Proyecto 4-->
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="proyecto">
-                <img src="./images/podcast" alt="Podcast BD">
-                <div class="overlay">
-                  <p>Podcast_BD</p>
-                  <div class="iconos-contenedor">
-                    <a href="https://github.com/EmilioAlmeida/Podcast_BD" target="_blank" rel="noopener noreferrer">
-                      <i class="bi bi-github"></i>
-                    </a>
-                    <a href="https://emilioalmeida.github.io/Podcast_BD/" target="_blank" rel="noopener noreferrer">
-                      <i class="bi bi-laptop"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Proyecto 5-->
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="proyecto">
-                <img src="./images/podcast" alt="Podcast BD">
-                <div class="overlay">
-                  <p>Podcast_BD</p>
-                  <div class="iconos-contenedor">
-                    <a href="https://github.com/EmilioAlmeida/Podcast_BD" target="_blank" rel="noopener noreferrer">
-                      <i class="bi bi-github"></i>
-                    </a>
-                    <a href="https://emilioalmeida.github.io/Podcast_BD/" target="_blank" rel="noopener noreferrer">
-                      <i class="bi bi-laptop"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Proyecto 6 -->
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="proyecto">
-                <img src="./images/podcast" alt="Podcast BD">
-                <div class="overlay">
-                  <p>Podcast_BD</p>
-                  <div class="iconos-contenedor">
-                    <a href="https://github.com/EmilioAlmeida/Podcast_BD" target="_blank" rel="noopener noreferrer">
-                      <i class="bi bi-github"></i>
-                    </a>
-                    <a href="https://emilioalmeida.github.io/Podcast_BD/" target="_blank" rel="noopener noreferrer">
-                      <i class="bi bi-laptop"></i>
-                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github ancla"></i>
+                    </a>                    
                   </div>
                 </div>
               </div>
@@ -277,30 +203,33 @@
         </a>
       </section>
 
-      <!--  Seccion Turismo -->
-      <section class="turismo justify-content-start">
-        <h2 class="seccion-titulo texto-negro">Turismo</h2>
-        <div class="card">
-          <div class="card-header">
-            Mi experiencia en Tour Operadores
-          </div>
-          <ul class="list-group list-group-flush">
-            <a href="http://www.juantoselli.com" target="_blank" rel="noopener noreferrer">
-              <li class="list-group-item">Juan Toselli International Tours</li>
-            </a>
-            <a href="http://www.sigaturismo.com" target="_blank" rel="noopener noreferrer">
-              <li class="list-group-item">Siga Turismo</li>
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <li class="list-group-item">Marsans Internacional</li>
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <li class="list-group-item">Triad Tours</li>
-            </a>
-          </ul>
-        </div>
+<!--  Seccion Turismo -->
+<section class="turismo justify-content-start">
+    <h2 class="seccion-titulo texto-negro">Turismo</h2>
+    <div class="card">
+      <div class="card-header">
+        Mi experiencia en Tour Operadores
+      </div>
+      <ul class="list-group list-group-flush">
+        <a href="http://www.juantoselli.com" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">Juan Toselli International Tours</li>
+        </a>
+        <a href="http://www.sigaturismo.com" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">Siga Turismo</li>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">Marsans Internacional</li>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">Triad Tours</li>
+        </a>
+      </ul>
+    </div>
 
-      </section>
+  </section>
+
+
+      
 
       <!--  Testimonios Carrousel-->
       <section id="testimonios" class="testimonios seccion-clara">
@@ -311,24 +240,24 @@
           <!-- Testimonio 1-->
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="container">
-                <img class="testimonio-imagen rounded-circle" src="./images/fotoEmilio2.jpg" alt="foto">
-                <p class="testimonio-texto">Emilio en su trabajo es....</p>
+              <div class="container" id="conTest" >
+                <img id="fotoTest"   class="testimonio-imagen rounded-circle" src="./images/Efrain.jpg" alt="foto">
+                <p class="testimonio-texto">Emilio siempre ha demostrado ser un profesional con un alto grado de responsabilidad y orientación a los resultados. Valoramos el hecho de que en nuestra experiencia de trabajo con él, Emilio siempre nos ha apoyado en el logro de nuestros objetivos conjuntos, aportando su experiencia y dedicación.</p>
                 <div class="testimonio-info">
-                  <p class="persona">Manuel</p>
-                  <p class="cargo">CEO de La Juntada</p>
+                  <p class="persona">Efrain Alvarado</p>
+                  <p class="cargo">Corporate Sales Manager Ocean by H10</p>
                 </div>
               </div>
             </div>
             <!-- Testimonio 2-->
             
             <div class="carousel-item">
-                <div class="container">
-                  <img class="testimonio-imagen rounded-circle" src="./images/foto_Emilio_Dev.jpg" alt="foto">
-                  <p class="testimonio-texto">Emilio como desarrollador....</p>
+                <div class="container" id="conTest">
+                  <img id="fotoTest" class="testimonio-imagen rounded-circle" src="./images/Hugo.jpg" alt="foto">
+                  <p class="testimonio-texto">Emilio es un profesional serio, consolidado, responsable y comprometido con su trabajo.</p>
                   <div class="testimonio-info">
-                    <p class="persona">Alejandro</p>
-                    <p class="cargo">Profesor en Acamica </p>
+                    <p class="persona">Hugo Dopazo</p>
+                    <p class="cargo">CEO Dopazo & Ravenna Viajes</p>
                   </div>
                 </div>
               </div>
@@ -336,24 +265,24 @@
             <!-- Testimonio 3-->
                           
                 <div class="carousel-item">
-                  <div class="container">
-                    <img class="testimonio-imagen rounded-circle" src="./images/fotoEmilio2.jpg" alt="foto">
-                    <p class="testimonio-texto">Emilio en sutrabajo es....</p>
+                  <div class="container" id="conTest">
+                    <img id="fotoTest" class="testimonio-imagen rounded-circle" src="./images/Alejandro.jpg" alt="foto">
+                    <p class="testimonio-texto">Emilio es una persona dedicada, disciplinada y constante; valores que lo llevan a conseguir lo que se propone. Comprometido con el equipo y sus compañeros.</p>
                     <div class="testimonio-info">
-                      <p class="persona">xxxxx</p>
-                      <p class="cargo">Companero de estudio en... </p>
+                      <p class="persona">Alejandro Arévalo Vásquez</p>
+                      <p class="cargo">Senior Java/Kotlin Developer. WinDifferent </p>
                     </div>
                   </div>
                 </div>
               
                 <!-- Testimonio 4-->
                   <div class="carousel-item">
-                    <div class="container">
-                      <img class="testimonio-imagen rounded-circle" src="./images/fotoEmilio2.jpg" alt="foto">
-                      <p class="testimonio-texto">Emilio en sutrabajo es....</p>
+                    <div class="container" id="conTest">
+                      <img id="fotoTest" class="testimonio-imagen rounded-circle" src="./images/Manu.png" alt="foto">
+                      <p class="testimonio-texto">Necesitábamos mayor exposición para nuestro negocio, cuando conocimos a Emilio y nos ofreció hacernos un sitio web que nos trajo nuevos contactos y clientes.Su proyecto continúa con mas funcionalidades que están en desarrollo. Estamos muy contentos con su trabajo!</p>
                       <div class="testimonio-info">
-                        <p class="persona">Guillermo Toselli</p>
-                        <p class="cargo">Director Comercial Juan Toselli Int Tours </p>
+                        <p class="persona">Manuel Rolando</p>
+                        <p class="cargo">CEO La Juntada</p>
                       </div>
                     </div>
                   </div>
@@ -397,7 +326,7 @@
 
 <!-- Footer-->
 <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
-  <img class="footer-logo"  src="images/Logo.png" alt="logo">
+  <img class="footer-logo"  src="images/Logo3.jpg" alt="logo">
   <p>Cada día puedes dar un paso hacia tus sueños <br>
   Caminemos juntos !</p>
   <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
@@ -432,5 +361,4 @@
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
 </body>
-
 </html>
