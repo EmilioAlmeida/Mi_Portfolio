@@ -530,6 +530,7 @@ footer {
    padding-top: 3rem;
    height:auto
 }
+}
 
 
 
@@ -537,15 +538,18 @@ footer {
   #conTest p {
    font-size: .8em;
 }
+}
 
 @media screen and (max-width: 465px) {
   #conTest p {
    font-size: .6em;
 }
+}
 
 @media screen and (max-width: 365px) {
   #conTest p {
    font-size: .7em;
+}
 }
 
 
@@ -554,11 +558,13 @@ footer {
    max-width: 3em;
    max-height: 3em;
 }
+}
 
 @media screen and (max-width: 416px) {
   #fotoTest {
-   max-width: 1.7em;
-   max-height: 1.7em;
+   max-width: 1.6em;
+   max-height: 1.6em;
+}
 }
 
 
@@ -566,13 +572,16 @@ footer {
   .testimonio-info p {
    font-size: 1em;
 }
+}
 
 @media screen and (max-width: 465px) {
   .testimonio-info p {
    font-size: .4em;
 }
+}
 
 @media screen and (max-width: 365px) {
   .testimonio-info p {
    font-size: .5em;
+  }
 }
