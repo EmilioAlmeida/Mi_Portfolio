@@ -1,0 +1,615 @@
+/*Generales*/
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-family: 'Lobster', cursive;
+    /*font-family: 'Rubik Dirt', cursive;*/
+  }
+  
+  
+  .seccion-oscura {
+    background-color: #1b1b32;
+    color: white;
+  }
+  
+  .seccion-clara {
+    color: black;
+    background-color: white;
+  }
+  
+  .seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Lobster', cursive;
+  }
+  .seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e
+  }
+  
+  .seccion-texto {
+    font-size: 1.2rem;
+  }
+  
+  .btn-info {
+    font-size: 1.1rem;
+    margin: 20px;
+  }
+  .btn{
+    background-color: #780aa0;
+    color: white;
+  }
+  
+  
+  .texto-negro {
+    color: black;
+  }
+  
+  .texto-blanco {
+    color: white;
+  }
+  
+  .milogo {
+    border-radius: 8px;
+  }
+  
+  /* Barra de navegacion */
+  
+  .home {
+    font-size: 5rem;
+    color: white;
+   }
+  
+  .navbar {
+    padding: 2rem;
+    background-color: #f5f6f7;
+  }
+  
+  .navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .hero {
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+    
+  }
+  
+  .hero-principal {
+    padding: 2rem;
+  }
+  
+  .img_ppal{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    
+  }
+  
+  .hero-principal h2 {
+    font-size: 1.5rem;
+    color: #615151;
+  }
+  
+  
+  /* Sobre mí*/
+  
+  .sobre-mi {
+   padding: 10px;
+  }
+  
+  
+  
+  .sobre-mi .contenedor {
+   max-width: 900px;
+   text-align: center;
+  }
+  
+  /* Experiencia */
+  .experiencia {
+    padding: 40px 40px 60px 40px;
+  }
+  
+  .experiencia .columna {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+  }
+  
+  .experiencia .columna:hover {
+    color: white;
+    background-color: #1b1b32;
+  }
+  
+  .experiencia .row div {
+    height: 400px;
+    
+  }
+  
+  .experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .experiencia i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50px;
+  }
+  
+  #laptop, #world, #book {
+    color: white;
+  }
+  
+  .badges-contenedor{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;  
+  }
+  
+  .badge {
+    margin: 5px;
+  }
+  
+  /* Proyectos */
+  .proyectos-recientes {
+    padding: 40px;
+    }
+  
+  .proyectos-recientes img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+  }
+  
+  .proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40PX;
+  }
+  
+  .overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  .proyecto {
+    position: relative;
+    max-height: 70%;
+    
+  }
+  
+  .proyecto:hover .overlay {
+    opacity: 1;
+    margin-top: 30%;
+  }
+  
+  .proyecto:hover img{
+    opacity: 0.2;
+  }
+  
+  .overlay .iconos-contenedor {
+    display: flex;
+  }
+  
+  .overlay i {
+    color: white;
+    font-size:60px;
+    margin: 10px;
+  
+  }
+  
+  /* Turismo */
+  .turismo {
+    min-height: 500px;
+    padding: 30px;
+  }
+  
+  .turismo .card {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+  }
+  
+  .turismo .card-header {
+    font-weight: bold;
+  }
+  
+  /*  Testimonios */
+  .testimonios {
+    padding: 40px 40px 80px 40px ;
+  }
+  
+  .testimonios .carousel {
+    max-width: 800px;
+  }
+  
+  .carousel-item {
+    height: 500px;
+  }
+  
+  .carousel-item .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .testimonio-imagen {
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 20px 10px ;
+  }
+  
+  .testimonio-texto {
+    max-width: 70%;
+    font-size: 20px;
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+  }
+  
+  .testimonio-info {
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .testimonio-info p {
+    margin-bottom: 0;
+  }
+  
+  .testimonio-footer .persona {
+    font-size: 1.2rem;
+  }
+  
+  .testimonio-info .cargo {
+    font-size: 0.9rem;
+    color: #656060;
+  }
+  
+  /* Contacto */
+  
+  .contacto .container {
+    max-width: 1100px;
+    min-height: 200px;  
+    padding: 20px;  
+  }
+  
+  .contacto .rectangulo {
+    margin-top: -5rem;
+    background-color: #7b1d9d;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white; 
+     
+  }
+  
+  .contacto .row {
+    width: 100%;
+    max-height: auto;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .contacto .descripcion {
+    color: white;
+    font-size: 1.2rem;
+  }
+  .contacto button {
+    color: white;
+    font-weight: bold;
+    background-color:transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .contacto button:hover i{
+    color: black;
+  }
+  
+  .contacto button i {
+    color:white;
+    background-color: transparent;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  /* Footer */
+  footer {
+    min-height: 360px ;
+  }
+  
+  .footer-logo {
+    height: 80px;
+    width: 80px;
+    
+    
+  }
+  
+  .footer-texto{
+    font-size: 1.5rem;
+    padding: 20px;
+    font-family: 'Quicksand', sans-serif;;
+  }
+  
+  .iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+  }
+  
+  .iconos-redes-sociales{
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+  }
+  
+  .iconos-redes-sociales a:hover {
+    background-color: #9B1DEB;
+    border: 1px solid #9B1DEB;
+  }
+  
+  .iconos-redes-sociales a:hover i{
+    color: rgb(12, 26, 155);
+  }
+  
+  .iconos-redes-sociales i {
+    font-size: 30px;
+    color: white;
+    
+  }
+  
+  /* Adaptable (Responsivo)  */
+  
+  
+  @media screen and (min-width: 700px) {
+    .hero-inferior-imagen {
+      max-width: 600px;
+    }  
+  }
+  
+  @media screen and (max-width: 767px) {
+    .milogo{
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .overlay p {
+      font-size: 18px;
+    }
+    .overlay i {
+      font-size: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .testimonio-imagen{
+      height: 120px;
+      width: 120px
+    }
+    .testimonio-texto{
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 920px) {
+    .sobre-mi .contenedor {
+      padding: 15px;
+      }
+  }
+  
+  /* Media querys Experiencia 468px */
+  @media screen and (max-width: 468px) {
+    .columna .experiencia-titulo {
+      font-size: 25px;    
+    }
+  }
+  
+  @media screen and (max-width: 468px) {
+    .columna i {
+      font-size: 25px;
+      
+    }
+  }
+  
+  @media screen and (max-width: 468px) {
+    .columna p {
+      font-size: 16px;
+      
+    }
+  }
+  
+  @media screen and (max-width: 468px) {
+    .badge {
+      font-size: 12px;
+      
+    }
+  }
+  
+  /* Media querys Experiencia 410px */
+  @media screen and (max-width: 410px) {
+    .columna .experiencia-titulo {
+      font-size: 18px;    
+    }
+  }
+  
+  @media screen and (max-width: 410px) {
+    .columna i {
+      font-size: 15px;
+      
+    }
+  }
+  
+  @media screen and (max-width: 410px) {
+    .columna p {
+      font-size: 12px;
+      
+    }
+  }
+  
+  @media screen and (max-width: 410px) {
+    .badge {
+      font-size: 10px;
+      
+    }
+  }
+  
+  /* Media querys para Poyectos */
+  @media screen and (max-width: 468px) {
+    .pod {
+      max-height: 40%;
+    }
+  }
+  
+  @media screen and (max-width: 468px) {
+    .jun {
+      max-height: 40%;
+    }
+  }
+  
+  @media screen and (max-width: 468px) {
+    .exp{
+     max-height: 200px;
+    }
+  }
+  
+  @media screen and (max-width: 468px) {
+    .proyecto {
+     max-height: 350px;
+    }
+  }
+  
+  @media screen and (max-width: 468px) {
+    .proyecto i {
+     max-height: 350px;
+    }
+  }
+  
+  @media screen and (max-width: 468px) {
+    .iconos-contenedor {
+     height: 200px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 468px) {
+    .iconos-contenedor .ancla {
+      height: 15px;
+    }
+  }
+  
+  /* Media querys para testimonios */
+  
+  @media screen and (max-width: 768px) {
+    #conTest {
+     padding-top: 3rem;
+     height:auto
+  }
+  }
+  
+  
+  
+  @media screen and (max-width: 768px) {
+    #conTest p {
+     font-size: .8em;
+  }
+  }
+  
+  @media screen and (max-width: 465px) {
+    #conTest p {
+     font-size: .6em;
+  }
+  }
+  
+  @media screen and (max-width: 365px) {
+    #conTest p {
+     font-size: .7em;
+  }
+  }
+  
+  
+  @media screen and (max-width: 465px) {
+    #fotoTest {
+     max-width: 5em;
+     max-height: 5em;
+  }
+  }
+  }
+  
+  @media screen and (max-width: 416px) {
+    #fotoTest {
+  <<<<<<< HEAD
+     max-width: 1.6em;
+     max-height: 1.6em;
+  =======
+     max-width: 4.5em;
+     max-height: 4.5em;
+  >>>>>>> master
+  }
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .testimonio-info p {
+     font-size: 1em;
+  }
+  }
+  
+  @media screen and (max-width: 465px) {
+    .testimonio-info p {
+     font-size: .8em;
+  }
+  }
+  }
+  
+  @media screen and (max-width: 365px) {
+    .testimonio-info p {
+  <<<<<<< HEAD
+     font-size: .5em;
+  =======
+     font-size: .6em;
+  >>>>>>> master
+    }
+  }
+  
