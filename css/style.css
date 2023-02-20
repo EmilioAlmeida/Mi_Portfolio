@@ -169,7 +169,10 @@ section {
   
   /* Proyectos */
   .proyectos-recientes {
+    border: 2px solid #7b1d9d;
     padding: 40px;
+    margin-top: 3px;
+    
     }
   
   .proyectos-recientes img {
@@ -299,9 +302,9 @@ section {
   
   /* Contacto */
   
+ 
   .contacto .container {
     max-width: 1100px;
-    min-height: 200px;  
     padding: 20px;  
   }
   
@@ -310,7 +313,8 @@ section {
     background-color: #7b1d9d;
     border-radius: 10px;
     box-shadow: 0px 1px 4px 1px white; 
-     
+    height: 10em;
+       
   }
   
   .contacto .row {
@@ -575,19 +579,14 @@ section {
      max-height: 5em;
   }
   }
-  }
-  
+    
   @media screen and (max-width: 416px) {
-    #fotoTest {
-  <<<<<<< HEAD
+    #fotoTest {  
      max-width: 1.6em;
      max-height: 1.6em;
-  =======
-     max-width: 4.5em;
-     max-height: 4.5em;
-  >>>>>>> master
+    }
   }
-  }
+
   
   
   @media screen and (max-width: 768px) {
@@ -601,15 +600,58 @@ section {
      font-size: .8em;
   }
   }
-  }
+  
   
   @media screen and (max-width: 365px) {
-    .testimonio-info p {
-  <<<<<<< HEAD
-     font-size: .5em;
-  =======
+    .testimonio-info p {  
      font-size: .6em;
-  >>>>>>> master
+      }
+  }
+  
+  @media screen and (max-width: 992px) {
+    #conversemos, #ahorra, #mimail  {
+      height: 3em;
+      font-size: medium;
+
+    }
+  }
+
+  @media screen and (max-width: 365px) {
+    #conversemos, #ahorra, #mimail  {
+      height: 2em;
+      font-size: 1em;
+      padding: .2em;
+    }
+  }
+
+  @media screen and (max-width: 345px) {
+    #conversemos, #ahorra, #mimail  {
+      height: 1.5em;
+      font-size: .7em;
+      padding: .1em;
     }
   }
   
+  @media screen and (max-width: 992px) {
+    .contacto .rectangulo {
+      height: 12em}
+  }
+ 
+  @media screen and (max-width: 768px){
+    #ahorra {
+      font-size: .8em;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .contacto .rectangulo {
+      height: 18em;
+      padding-bottom: 2em;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    #but {
+      font-size: .3em;
+    }
+  }
